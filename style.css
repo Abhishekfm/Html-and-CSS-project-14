@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    background-color: #F5F2F0;
+    color: #333333;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-line{
+    position: absolute;
+    border-bottom: 2px solid #333333;
+    width: 25%;
+    top: 60px;
+    left: 38%;
+}
+.nav-items{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav-items li a{
+    color: #333333;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+.right-div{
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    top: 40px;
+    left: 60px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+.left-hero{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.hero-part{
+    display: flex;
+    flex-direction: row;
+}
+.crea{
+    font-family: 'Rampart One', cursive;
+    font-size: 82px;
+    padding-left: 50px;
+    height: 140px;
+}
+.tivity{
+    color: #333333;
+    font-family: 'Merriweather', serif;
+    padding-left: 250px;
+    font-size: 82px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 12%;
+}
+.social img{
+    width: 20px;
+    margin-top: 40px;
+}
+.social img:hover{
+    width: 30px;
+}
+.tivity-is{
+    font-family: 'Merriweather', serif;
+    margin-top: 65px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+.btn-div{
+    padding-left: 632px;
+}
+.btn-group{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    width: 80%;
+    padding: 15px 0px;
+    background-color: #333333;
+    color: #ffffff;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.graphy{
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 20px;
+    width: 20%;
+}
+.graphy li{
+    font-family: 'Mulish', sans-serif;
+    padding-top: 37px;
+}
+.graphy li a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+}
+.bottom-text h1{
+    font-size: 75px;
+    height: 65px;
+}
+.bottom-text{
+    margin-left: 40px;
+}
+.bottom-text img{
+    margin-top: 20px;
+}
+.bottom-text p{
+    font-family: 'Mulish', sans-serif;
+}
+.graphy-line{
+    position: absolute;
+    top: 574px;
+    /* left: 10px; */
+    width: 230px;
+    border-bottom: 2px solid #333333;
+    transform: rotate(90deg);
+    left: 498px;
+}
+
+.graphy li a:hover, .nav-items li a:hover{
+    font-weight: 900;
+}
+.btn-group:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+.graphy li:hover{
+    list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='-1 -1 2 2'><circle r='1' /></svg>");
+}
+.arrow{
+    position:absolute;
+    transform: rotate(90deg);
+    width: fit-content;
+    top: 500px;
+    right: 20px;
+}
+.arrow img{
+    /* width: 100px; */
+    height: 100px;
+}
