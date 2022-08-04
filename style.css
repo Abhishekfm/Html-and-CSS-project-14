@@ -169,3 +169,62 @@ body{
     /* width: 100px; */
     height: 100px;
 }
+
+@media screen and (max-width:1100px) {
+    .outer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:799px) {
+    .nav-items{
+        margin-left: 40px;
+    }
+    .btn-div{
+        padding-left: 60%;
+    }
+    .crea{
+        font-size: 50px;
+        /* padding-top: 120px; */
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        height: 100%;
+    }
+    .tivity{
+        font-size: 50px;
+        padding-left: 30%;
+    }
+    .bottom-text img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:593px) {
+    .tivity-is{
+        margin-left: 0px;
+        font-size: small;
+    }
+    .crea{
+        font-size: 30px;
+        /* padding-top: 120px; */
+        height: 30%;
+    }
+    .tivity{
+        font-size: 30px;
+        padding-left: 30%;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .person{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .arrow{
+        display: none;
+    }
+    .btn-div{
+        padding-left: 40%;
+    }
+}
